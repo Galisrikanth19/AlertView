@@ -1,10 +1,10 @@
 //
 //  AlertView.swift
-//  CustomAlert
+//  AlertView
 //
-//  Created by SHUBHAM AGARWAL on 31/12/18.
-//  Copyright © 2018 SHUBHAM AGARWAL. All rights reserved.
+//  Created by Elorce on 30/12/21.
 //
+
 
 import Foundation
 import UIKit
