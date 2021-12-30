@@ -1,10 +1,10 @@
 //
 //  SettingsViewController.swift
-//  CustomAlert
+//  AlertView
 //
 //  Created by Elorce on 30/12/21.
-//  Copyright © 2021 SHUBHAM AGARWAL. All rights reserved.
 //
+
 
 import UIKit
 
