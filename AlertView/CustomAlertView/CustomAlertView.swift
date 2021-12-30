@@ -1,6 +1,6 @@
 //
-//  AlertView.swift
-//  AlertView
+//  CustomAlertView.swift
+//  CustomAlertView
 //
 //  Created by Elorce on 30/12/21.
 //
@@ -9,9 +9,9 @@
 import Foundation
 import UIKit
 
-class AlertView: UIView {
+class CustomAlertView: UIView {
     
-    static let instance = AlertView()
+    static let instance = CustomAlertView()
     
     @IBOutlet var parentView: UIView!
     @IBOutlet weak var alertView: UIView!
@@ -27,7 +27,7 @@ class AlertView: UIView {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        Bundle.main.loadNibNamed("AlertView", owner: self, options: nil)
+        Bundle.main.loadNibNamed("CustomAlertView", owner: self, options: nil)
         commonInit()
     }
     

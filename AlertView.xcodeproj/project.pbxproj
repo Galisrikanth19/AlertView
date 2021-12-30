@@ -14,8 +14,8 @@
 		FDF45060277D3B6400465F17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDF4505E277D3B6400465F17 /* LaunchScreen.storyboard */; };
 		FDF45068277D3C4300465F17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDF45067277D3C4200465F17 /* Main.storyboard */; };
 		FDF4506A277D3CA900465F17 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF45069277D3CA900465F17 /* SettingsViewController.swift */; };
-		FDF4506E277D3CD100465F17 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF4506C277D3CD100465F17 /* AlertView.swift */; };
-		FDF4506F277D3CD200465F17 /* AlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDF4506D277D3CD100465F17 /* AlertView.xib */; };
+		FDF4506E277D3CD100465F17 /* CustomAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF4506C277D3CD100465F17 /* CustomAlertView.swift */; };
+		FDF4506F277D3CD200465F17 /* CustomAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDF4506D277D3CD100465F17 /* CustomAlertView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +28,8 @@
 		FDF45061277D3B6400465F17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDF45067277D3C4200465F17 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		FDF45069277D3CA900465F17 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
-		FDF4506C277D3CD100465F17 /* AlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
-		FDF4506D277D3CD100465F17 /* AlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlertView.xib; sourceTree = "<group>"; };
+		FDF4506C277D3CD100465F17 /* CustomAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAlertView.swift; sourceTree = "<group>"; };
+		FDF4506D277D3CD100465F17 /* CustomAlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomAlertView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +66,7 @@
 				FDF45055277D3B5F00465F17 /* SceneDelegate.swift */,
 				FDF45057277D3B5F00465F17 /* DashboardViewController.swift */,
 				FDF45069277D3CA900465F17 /* SettingsViewController.swift */,
-				FDF4506B277D3CB700465F17 /* AlertView */,
+				FDF4506B277D3CB700465F17 /* CustomAlertView */,
 				FDF45067277D3C4200465F17 /* Main.storyboard */,
 				FDF4505C277D3B6400465F17 /* Assets.xcassets */,
 				FDF4505E277D3B6400465F17 /* LaunchScreen.storyboard */,
@@ -75,13 +75,13 @@
 			path = AlertView;
 			sourceTree = "<group>";
 		};
-		FDF4506B277D3CB700465F17 /* AlertView */ = {
+		FDF4506B277D3CB700465F17 /* CustomAlertView */ = {
 			isa = PBXGroup;
 			children = (
-				FDF4506C277D3CD100465F17 /* AlertView.swift */,
-				FDF4506D277D3CD100465F17 /* AlertView.xib */,
+				FDF4506C277D3CD100465F17 /* CustomAlertView.swift */,
+				FDF4506D277D3CD100465F17 /* CustomAlertView.xib */,
 			);
-			path = AlertView;
+			path = CustomAlertView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,7 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDF45068277D3C4300465F17 /* Main.storyboard in Resources */,
-				FDF4506F277D3CD200465F17 /* AlertView.xib in Resources */,
+				FDF4506F277D3CD200465F17 /* CustomAlertView.xib in Resources */,
 				FDF45060277D3B6400465F17 /* LaunchScreen.storyboard in Resources */,
 				FDF4505D277D3B6400465F17 /* Assets.xcassets in Resources */,
 			);
@@ -156,7 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDF4506E277D3CD100465F17 /* AlertView.swift in Sources */,
+				FDF4506E277D3CD100465F17 /* CustomAlertView.swift in Sources */,
 				FDF45058277D3B5F00465F17 /* DashboardViewController.swift in Sources */,
 				FDF4506A277D3CA900465F17 /* SettingsViewController.swift in Sources */,
 				FDF45054277D3B5F00465F17 /* AppDelegate.swift in Sources */,

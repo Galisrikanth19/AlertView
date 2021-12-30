@@ -15,7 +15,7 @@ class SettingsViewController: UIViewController {
     }
     
     @IBAction func onClickFailure(_ sender: Any) {
-        AlertView.instance.showAlert(title: "Success",
+        CustomAlertView.instance.showAlert(title: "Success",
                                      message: "You have succesfully logged into the system.",
                                      alertType: .failure,
                                      actionTitles: ["Male", "Female"],

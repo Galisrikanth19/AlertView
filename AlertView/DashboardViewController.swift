@@ -14,7 +14,7 @@ class DashboardViewController: UIViewController {
     }
     
     @IBAction func onClickSuccess(_ sender: Any) {
-        AlertView.instance.showAlert(title: "Success",
+        CustomAlertView.instance.showAlert(title: "Success",
                                      message: "You are succesfully logged into the system.",
                                      alertType: .success,
                                      //actionTitles: ["Done", "Cancel"],
